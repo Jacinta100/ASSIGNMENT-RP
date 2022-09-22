@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    
+ }
+
+
+ /*hero_section*/
+
+.hero_section{
+    width: 100%;
+    height: 740px;
+    background-image: url(../Image/James.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.nav_list{
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-right: 92px;
+    padding-bottom: 26px;
+
+
+}
+   
+.nav_list-item{
+    font-family: 'Lato';
+    display: flex;
+    color:  #A6A6A6;
+    margin-left: 30px;
+
+
+    
+     
+    
+}
+.nav_link{
+    color: currentColor;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+
+}
+
+
+.inner-container{
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left:  auto;
+}
+
+
+
+
+.profile{
+    width: 100%;
+    max-width: 467px;
+    padding-top: calc(181px - 71px);
+  
+}
+
+
+.name{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "Lato";
+    margin-bottom: 24px;
+}
+
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #404040;
+  
+
+}
+
+.btn{
+    padding: 26px 62px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+ .icon-list{
+    position: absolute;
+    bottom: 55.59px;
+    right: 100px;
+    display: flex;
+     flex-direction: column;
+}
+.icon_listitem{
+    display: flex;
+    font-size: 24px;
+         
+}
+
+
+.icon_listitem + .icon_listitem{
+    margin-top: 29.5px;
+
+} 
+.icon_link{
+    text-decoration: none;
+}
+
+
+/*Aboutme_section*/
+.about_section{
+    width: 100%;
+    background-color:  #F2F2F2;
+      
+}
+
+
+.about_me{
+    display: flex;
+}
+
+
+.image{
+    padding-top: 69px;
+    padding-bottom: 3.22px;
+}
+.intro_div{
+    padding-top: 86px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    width: 715px;
+}
+.intro{
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding-bottom: 38px;
+   
+
+}
+.intro_div p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding-bottom: 13px;
+   
+
+}
+
+/*Gallery section*/
+.gallary{
+    background-color: #F2F2F2;
+   
+}
+.gallery_text{
+    text-align: center;
+    
+}
+.gallery_text h2{
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+
+}
+.gallery_text p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding-top: 16px;
+
+}
+
+
+.gallerypadding_top {
+    padding-top: 40px;
+}
+
+
+
+ .gallary_images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+} 
+
+.viewall_btn  {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #F2F2F2;
+    ;
+   
+}
+.viewall_btn button{
+    padding:27px 82px 26px 42px;
+}
+   
+.ourclients_section{
+  background-color: #F2F2F2;
+}
+
+
+.ourclients_div{
+    text-align: center;
+}
+
+ .ourclients_div h2{
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding-top: 19px;
+    color: #404040;
+
+
+ }
+
+.ourclients_div p {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding-top: 16px;
+    padding-bottom: 24px;
+
+
+}
+.brands_logos{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 58.1px;
+    
+}
+
+
+.first_logo{
+    align-self: center;
+
+}
+
+.second_logo{
+    align-self: center;
+
+}
+    
+/* .third_logo{ By defaul it will be positioned at flex-end} */
+
+
+/* contactme_section*/
+
+.section_form {
+    background-color: #F2F2F2;
+}
+
+.contact_me {
+    text-align: center;
+    
+}
+
+.contact_me h2 {
+    padding-top: 30px;
+    color: #404040;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em; 
+}
+
+.contact_me p {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: #404040;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.form_image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_a input{
+    background-color: transparent;
+    height: 60px;
+    width: 505px;
+    border: 1px solid #404040;
+    border-radius: 5px;
+
+}
+
+.form_a p{
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #404040;
+}
+
+.name {
+    margin-left: 42px;
+}
+
+.email {
+    margin-left: 46px;
+}
+
+.subject {
+    margin-left: 26px;
+}
+
+.text_area {
+    display: flex;
+}
+
+.text_area textarea {
+    background-color: transparent;
+    width: 505px;
+    height: 228px;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 40px;
+    border: 1px solid #404040;
+}
+
+.form_a button{
+    background-color: transparent;
+    margin-left: 105px;
+    margin-top: 71px;
+    margin-bottom: 44px;
+    padding: 20px 91px 19px 92px;
+    border: 1px solid #404040;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #404040;
+}
+/*ends here*/
+
+/*footer start here*/
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.footer-area {
+    text-align: center;
+}
+
+.footer-area p {
+    padding-top: 10px;
+    color: #404040;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.icons-footer {
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-footer li {
+    display: flex;
+    font-size: 24px; 
+    padding-left: 35px;
+}
+
+
+.icons-footer a {
+    color: #404040;
+}
+/*end here*/
