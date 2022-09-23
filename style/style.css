@@ -103,9 +103,13 @@
 .icon_listitem{
     display: flex;
     font-size: 24px;
-         
+      
 }
 
+
+.ig{
+    color: black;
+}
 
 .icon_listitem + .icon_listitem{
     margin-top: 29.5px;
